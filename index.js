@@ -46,4 +46,4 @@ bot.on("message", async message => {
   if (cmd) cmd.run(bot, message, args);
 });
 
-bot.login(config.token);
+bot.login(process.env.token);
