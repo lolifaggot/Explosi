@@ -1,0 +1,10 @@
+{
+  "token": "NjA1NzA2Njk2NTQyOTEyNTEz.XUJl8Q.sk95AWCSve1tma2bOAsURLR8Dog",
+  "prefix": ".",
+  "logsChannel": "logs",
+
+  "activity": {
+    "streaming": true,
+    "game": "prefix ."
+  }
+}

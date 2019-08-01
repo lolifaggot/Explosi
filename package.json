@@ -1,0 +1,30 @@
+{
+  "name": "tutorialbot",
+  "version": "1.0.0",
+  "description": "A Tutorial Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "synopNode",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "assets": "^3.0.1",
+    "discord.js": "^11.3.2",
+    "loader": "^2.1.1",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
+    "lodash.unset": "^4.5.2",
+    "moment": "^2.24.0",
+    "node-superfetch": "^0.1.9",
+    "os": "^0.1.1",
+    "quickdb": "^1.0.5",
+    "random-puppy": "^1.1.0",
+    "settings": "^0.1.1",
+    "settings.json": "^0.2.0",
+    "speech": "^0.2.1",
+    "sqlite3": "^4.0.9",
+    "tar": "^4.4.10"
+  }
+}
