@@ -46,7 +46,7 @@ module.exports.run = async (bot, message, args) => {
           let nekoEmbed = new discord.RichEmbed()
             .setColor("RANDOM")
             .setTitle("Anime Commands")
-            .setDescription("***.anime \n .animememes***")
+            .setDescription("***.anime \n .animemes***")
             .setThumbnail(bot.user.avatarURL)
         return  message.channel.send(nekoEmbed)
 
