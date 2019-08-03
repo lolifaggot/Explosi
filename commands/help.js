@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
           let modEmbed = new discord.RichEmbed()
             .setColor("RANDOM")
             .setTitle("Moderation Commands")
-            .setDescription(".ban \n .kick \n .lockdown \n .mute \n .unban \n .timedlockdown \n .unlockdown \n .setgame \n .tempmute \n .purge (limit 100) \n .addrole ")
+            .setDescription(".ban \n .kick \n .unban \n .purge (limit 100) \n .addrole \n .removerole ")
             .setThumbnail(bot.user.avatarURL)
           return message.channel.send(modEmbed)
     }
@@ -38,7 +38,7 @@ module.exports.run = async (bot, message, args) => {
           let funEmbed = new discord.RichEmbed()
             .setColor("RANDOM")
             .setTitle("Fun Commands")
-            .setDescription("***.ascii \n .meme \n .rps***")
+            .setDescription("*** .rps***")
             .setThumbnail(bot.user.avatarURL)
         return  message.channel.send(funEmbed)
     }
@@ -46,7 +46,7 @@ module.exports.run = async (bot, message, args) => {
           let nekoEmbed = new discord.RichEmbed()
             .setColor("RANDOM")
             .setTitle("Anime Commands")
-            .setDescription("***.anime \n .animemes***")
+            .setDescription("***.anime***")
             .setThumbnail(bot.user.avatarURL)
         return  message.channel.send(nekoEmbed)
 
@@ -55,7 +55,7 @@ module.exports.run = async (bot, message, args) => {
           let miscEmbed = new discord.RichEmbed()
             .setColor("RANDOM")
             .setTitle("Misc. Commands")
-            .setDescription("***.help \n .afk \n .avatar \n .userinfo \n .votekick \n .ping \n .say ***")
+            .setDescription("***.help \n .avatar \n .userinfo \n .ping***")
             .setThumbnail(bot.user.avatarURL)
         return  message.channel.send(miscEmbed)
     }
