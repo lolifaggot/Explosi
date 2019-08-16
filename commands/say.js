@@ -2,7 +2,7 @@ const discord = require("discord.js");;
 const config = require("../config.json");
 
 module.exports.run = async (bot, message, args) => {
-    if(message.author.id != "497227982382039051") return message.channel.send("Sorry, you are not Ashi!");
+    if(message.author.id != "263228336036118531") return message.channel.send("Sorry, you are not My Owner");
     
 
 let sayMessage = args.join(" ");
